@@ -1,0 +1,27 @@
+# Sajadsynn
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرادفات الكلمات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>مرادفات الكلمات</h1>
+        <textarea id="inputText" placeholder="أدخل النص هنا..."></textarea>
+        <br>
+        <label for="wordType">اختر نوع الكلمات:</label>
+        <select id="wordType">
+            <option value="uncommon">غير شائعة</option>
+            <option value="common">شائعة</option>
+        </select>
+        <br><br>
+        <button onclick="getSynonyms()">احصل على المرادفات</button>
+        <div class="output" id="output"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
